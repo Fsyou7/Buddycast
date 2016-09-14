@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Buddycast</string>
+    <string name="main_title">Find nearby Buddycasters</string>
+    <string name="marc_up">Marc Up</string>
+    <string name="dummyuser">DummyUser</string>
+    <string name="lorenipsum">LorenIpsum</string>
+    <string name="marc_down">Marc Down</string>
+    <string name="superuser">SuperUser</string>
+    <string name="lorenmichaels">LorenMichaels</string>
+    <string name="mjmike">MjMike</string>
+    <string name="daddyusef">DaddyUsef</string>
+    <string name="larryipsum">LarryIpsum</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="library">Library</string>
+    <string name="user">User Info</string>
+    <string name="stats">Stats</string>
+    <string name="same_song_di">Same Song - Digital Underground - This is an EP Release</string>
+    <string name="album_1_artist">Album 1 - Artist</string>
+    <string name="album_2_artist">Album 2 - Artist</string>
+    <string name="_6_022">6,022</string>
+    <string name="_98">98</string>
+    <string name="buddycasters">Buddycasters</string>
+    <string name="_327">327</string>
+    <string name="points">Points</string>
+    <string name="digital_underground">Digital Underground</string>
+    <string name="this_is_an_ep_release">This Is an EP Release</string>
+    <string name="same_song">Same Song</string>
+    <string name="media_player_description">The player will use the MediaPlayer class</string>
+</resources>

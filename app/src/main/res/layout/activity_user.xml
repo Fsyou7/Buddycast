@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.labartbeats.buddycast.UserActivity">
+    <TextView
+        android:id="@+id/title"
+        android:text="@string/main_title"
+        style="@style/BuddyHeader" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/title">
+        <TextView
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:background="@android:color/holo_blue_light"
+            android:text="@string/marc_up"
+            style="@style/UserView" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:text="@string/user"
+            android:gravity="center"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:background="@android:color/holo_blue_light"
+                    android:text="@string/now_playing"
+                    android:id="@+id/user_now_playing"
+                    style="@style/UserView" />
+                <TextView
+                    android:background="@android:color/holo_purple"
+                    android:text="@string/library"
+                    android:id="@+id/user_library"
+                    style="@style/UserView" />
+                <TextView
+                    android:background="@android:color/holo_blue_dark"
+                    android:text="@string/stats"
+                    android:id="@+id/user_stats"
+                    style="@style/UserView" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            android:background="@android:color/darker_gray"/>
+        <TextView
+            android:text="@string/same_song_di"
+            android:id="@+id/user_now_playing_song"
+            style="@style/NowPlayingBar" />
+    </LinearLayout>
+</RelativeLayout>
